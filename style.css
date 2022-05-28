@@ -18,7 +18,7 @@ h2 {
   color: FFFFFF;
   font-size: 15px;
   margin-left: 30px;
-  line-height: 0px;
+  line-height: 1px;
   font-family: Helvetica;
   font-style: italic;
 } 
@@ -31,7 +31,7 @@ h3 {
 }
 h4 {
   color: #FFFFFF
-  font-size: 16px;
+  font-size: 12px;
   margin-left: 30px;
   font-family: Helvetica;
 }
