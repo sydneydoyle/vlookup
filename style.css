@@ -4,7 +4,7 @@ a:link {
 }
 table, th, td {
   border: 1px solid;
-  margin-top:-20px;
+  border-color: #000000;
 }
 h1 {
   background-color: #3A3F64;
@@ -41,18 +41,17 @@ h4 {
 h5 {
   color: #FFFFFF
   font-size: 18px;
-  margin-left: 30px;
+  margin-left: 20px;
   font-family: Helvetica;
-  margin-top: -15px;
+  margin-top: 1px;
   
 }
 h6 {
-  background-color: #B8B8B8B8;
+ background-color: #D8D8DA;
+  text-indent: 20px;
   font-size: 18px;
-  text-align: center;
-  margin-left: 30px;
   font-family: Helvetica;
-  margin-top: -15px;
+  text-align: center;
 }
 p {
   color: FFFFFF;
