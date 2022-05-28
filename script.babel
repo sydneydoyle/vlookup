@@ -1,7 +1,5 @@
 import $ from "https://cdn.skypack.dev/jquery@3.6.0";
-import angular from "https://cdn.skypack.dev/angular@1.8.3";
-import angularBootstrap from "https://cdn.skypack.dev/angular-bootstrap@0.12.2";
-
+import * as bootstrap from "https://cdn.skypack.dev/bootstrap@5.1.3";
 $(document).ready(function () {
   var coll = document.getElementsByClassName("collapsible");
   var i;
