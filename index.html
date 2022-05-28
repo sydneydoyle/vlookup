@@ -2,6 +2,16 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <title>CodePen - vlookupdoylefinal</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
   <title>CodePen - doylevlookup</title>
   <link rel="stylesheet" href="./style.css">
 
@@ -18,42 +28,95 @@
 
 <body>
   <br><br>
-  <h4><iframe width="426" height="240" src="https://www.youtube.com/"></h4>
-  </iframe>
-  <br><br>
-  <h3>Instructions</h3>
-  <h5>1.</h5><br>
-  <h5>2.</h5><br>
-  <h5>3.</h5><br>
-  <h5>4.</h5><br>
-  <h5>5.</h5><br>
+  <h3>What is VLOOKUP?</h3><br>
+  <h5>The VLOOKUP(), or vertical lookup, is a search function in Excel that allows you to find things in a table or a range by row. For example, you might use VLOOKUP to find a client’s subscription plan based on their company name. </h5><br>
+  <h5>VLOOKUP is especially useful when your spreadsheet contains many rows and columns that make it difficult to search for a specific value by eyesight alone.  </h5><br>
+  <h6>Syntax: =VLOOKUP(lookup_value,table_array,col_index_num,[range_lookup]
+</h6><br>
 
+  
+<center><h5><table>
+  <tr class="d0">
+    <th> lookupvalue: </th>
+    <th> The value you want to look up</th>
+  </tr>
+<tr>
+<th> table_array:</th>
+<th> The search range beginning with the column where the initial value is located</th>
+</tr>
+<tr>
+<th> col_index_num:</th>
+<th> The column number where the return value is located</th>
+</tr>
+<tr>
+<th>range_lookup:</th>
+<th>0 or FALSE for an exact match, 1 or TRUE for an approximate match</th>
+</tr>
+  </table></h5></center>
+
+  <h3>Lesson</h3>
+  
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/VDoqBL4AB3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br><br>
+
+
+
+  
   <h3>Exercises</h3>
-  <h2>Download exercise workbook: <a href="url">click here</a></h2>
+  <br>
+  <iframe width="536" height="341" frameborder="0" scrolling="no" src="https://ullafayette-my.sharepoint.com/personal/c00443316_louisiana_edu/_layouts/15/Doc.aspx?sourcedoc={9ef94837-fd6a-4bfb-9a0b-611d86cab8c7}&action=embedview&wdAllowInteractivity=False&AllowTyping=True&Item='Sheet1'!A1%3AE15&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&ejss=false"></iframe>
+  
   <br><br>
-  <h4>Question 1</h4>
+  <h4>How many stations does Tagic Milt have?</h4>
 
   <button type="button" class="collapsible">Show Answer</button>
   <div class="content">
-    <p>Lorem ipsum...</p>
+    <p><b>Answer:</b> 45<br>
+      <b>Formula:</b> =VLOOKUP(A6,A2:C11,3,0)
+    </p>
   </div>
   <br><br>
-  <h4>Question 2</h4>
+  <h4>Which plan does Caza Thocolate subscribe to?</h4>
 
   <button type="button" class="collapsible">Show Answer</button>
   <div class="content">
-    <p>Lorem ipsum...</p>
+    <p><b>Answer:</b> Professional<br>          <b>Formula:</b> =VLOOKUP(A9,A2:B11,2,0)</p>
   </div>
   <br><br>
-  <h4>Question 3</h4>
+  <h4>What is Lorm Fabs' annual fee?</h4>
 
   <button type="button" class="collapsible">Show Answer</button>
   <div class="content">
-    <p>Lorem ipsum...</p>
+    <p><b>Answer:</b> $78,000<br>
+      <b>Formula:</b> =VLOOKUP(A10,A2:E11,5,0)
+    </p>
   </div>
+  
+ <br><br><br><br><br><br><br>
+ <h3>Help us improve:</h3>
+  
+  <p2>Was this article helpful?</p2>
+  <br>
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html"><p2>Yes</p2></label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css"><p2>No</p2></label>
+</form>
+  <br>
+<p2><form action="/action_page.php">
+  <label for="fname">Feedback:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <input type="submit" value="Submit">
+  </form></p2>
 
 </body>
 
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
 </html>
 <!-- partial -->
   <script  src="./script.js"></script>

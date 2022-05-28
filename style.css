@@ -2,6 +2,10 @@ a:link {
   text-decoration: none;
   color: 7198AF;
 }
+table, th, td {
+  border: 1px solid;
+  margin-top:-20px;
+}
 h1 {
   background-color: #3A3F64;
   color: white;
@@ -36,15 +40,32 @@ h4 {
 }
 h5 {
   color: #FFFFFF
-  font-size: 16px;
-  margin-left: 75px;
+  font-size: 18px;
+  margin-left: 30px;
   font-family: Helvetica;
+  margin-top: -15px;
+  
+}
+h6 {
+  background-color: #B8B8B8B8;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 30px;
+  font-family: Helvetica;
+  margin-top: -15px;
 }
 p {
   color: FFFFFF;
   font-size: 15px;
   margin: 1px;
   margin-left: 3px;
+  font-family: Helvetica;
+}
+p2 {
+  color: FFFFFF;
+  font-size: 14px;
+  margin: 1px;
+  margin-left: 5px;
   font-family: Helvetica;
 }
 
