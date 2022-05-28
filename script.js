@@ -1,6 +1,7 @@
+import $ from "https://cdn.skypack.dev/jquery@3.6.0";
 import * as bootstrap from "https://cdn.skypack.dev/bootstrap@5.1.3";
 import fontAwesome from "https://cdn.skypack.dev/font-awesome@4.7.0";
-import $ from "https://cdn.skypack.dev/jquery@3.6.0";
+import bootstrapjs from "https://cdn.skypack.dev/bootstrapjs@2.0.0";
 
 function init() {
   var coll = document.getElementsByClassName("collapsible");
